@@ -1,0 +1,6 @@
+streamlit
+pandas
+plotly
+fpdf2
+python-dotenv
+office365-rest-python-client
