@@ -122,7 +122,7 @@ def reset_all_data():
         os.remove(CAP_DATA_FILE)
     
     st.success("All data has been reset successfully!")
-    st.experimental_rerun()  # Refresh the app
+    st.rerun()  # Refresh the app
 
 # ---------------------------
 # Helper Functions
