@@ -18,7 +18,7 @@ st.set_page_config(
 # ---------------------------
 # Admin Password
 # ---------------------------
-ADMIN_PASSWORD = "eintrust2025"
+ADMIN_PASSWORD = "123"
 
 # ---------------------------
 # Data Files
