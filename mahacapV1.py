@@ -1243,7 +1243,7 @@ if st.session_state.get('authenticated'):
 
                 st.success(f'CAP data for {city} submitted successfully! Redirecting to GHG Inventory...')
                 st.session_state.menu = 'GHG Inventory'
-                st.experimental_rerun()
+                st.rerun()
 
 else:
     st.warning('Please log in as admin to access this page.')
