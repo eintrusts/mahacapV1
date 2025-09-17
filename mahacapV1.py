@@ -307,7 +307,7 @@ def admin_login():
             if pw == ADMIN_PASSWORD:
                 st.session_state.authenticated = True
                 st.success("Admin login successful")
-                st.session_state.menu = "Generate CAP"
+                st.session_state.menu = "Home"
             else:
                 st.error("Incorrect password")
 
